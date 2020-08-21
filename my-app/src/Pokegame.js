@@ -5,9 +5,9 @@ export default class Pokegame extends Component {
     worker: [
       { id: 4, name: "Shelly", type: "Model", base_experience: 22 },
       { id: 11, name: "Saran", type: "Socialist", base_experience: 12 },
-      { id: 50, name: "Lelly", type: "Film Maker", base_experience: 78 },
-      { id: 13, name: "Pubbi", type: "Debugger", base_experience: 8 },
-      { id: 22, name: "Sayra", type: "Film Maker", base_experience: 48 },
+      { id: 50, name: "Lelly", type: "Film Maker", base_experience: 28 },
+      { id: 13, name: "Pubbi", type: "Debugger", base_experience: 18 },
+      { id: 22, name: "Sayra", type: "Film Maker", base_experience: 22 },
       { id: 94, name: "Sara", type: "Web Developer", base_experience: 25 },
     ],
   };

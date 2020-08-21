@@ -8,7 +8,10 @@ export default class Pokecard extends Component {
       <div className="col-lg-4">
         <div className="Pokecard">
           <h1 className="Pokecard-title">{this.props.name}</h1>
-          <img src={imgsrc} alt="" />
+          <div className="Pokecard-img">
+            <img src={imgsrc} alt="" />
+          </div>
+
           <h2 className="Pokecard-data">Profession:{this.props.type}</h2>
           <h3 className="Pokecard-data">Experience:{this.props.exp}</h3>
         </div>

@@ -1,8 +1,7 @@
 $bgcolor: white;
 $green: rgb(166, 240, 166);
 .Pokecard {
-  width: 300px;
-  margin: 30px;
+  margin: 30px 0px;
   padding: 30px;
   box-shadow: 7px 10px 12px -7px rgba(0, 0, 0, 0.56);
   background: $bgcolor;
@@ -15,7 +14,11 @@ $green: rgb(166, 240, 166);
   //background: #eceff1;
   border-radius: 3px;
   margin: 1rem 1rem;
+  img {
+    width: 100%;
+  }
 }
+
 .Pokecard {
   transition: all ease 500ms;
   &:hover {

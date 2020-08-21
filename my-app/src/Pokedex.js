@@ -1,25 +1,25 @@
 import React, { Component } from "react";
+import "bootstrap/dist/css/bootstrap.css";
 import Pokecard from "./Pokecard";
 import "./pokedex.scss";
 
 export default class Pokedex extends Component {
   static defaultProps = {
     worker: [
-      { id: 4, name: "Charmander", type: "fire", base_experience: 62 },
-      { id: 7, name: "Squirtle", type: "water", base_experience: 63 },
-      { id: 11, name: "Metapod", type: "bug", base_experience: 72 },
-      { id: 12, name: "Butterfree", type: "flying", base_experience: 178 },
-      { id: 25, name: "Pikachu", type: "electric", base_experience: 112 },
-      { id: 39, name: "Jigglypuff", type: "normal", base_experience: 95 },
-      { id: 94, name: "Gengar", type: "poison", base_experience: 225 },
-      { id: 13, name: "Eevee", type: "normal", base_experience: 44 },
+      { id: 4, name: "Shelly", type: "Model", base_experience: 22 },
+      { id: 11, name: "Saran", type: "Socialist", base_experience: 12 },
+      { id: 50, name: "Lelly", type: "Film Maker", base_experience: 78 },
+      { id: 13, name: "Pubbi", type: "Debugger", base_experience: 8 },
+      { id: 22, name: "Sayra", type: "Film Maker", base_experience: 48 },
+      { id: 94, name: "Sara", type: "Web Developer", base_experience: 25 },
     ],
   };
   render() {
     return (
       <div className="Pokedex">
-        <h1>Pokedex</h1>
-        <div className="Pokedex-cards">
+        <h1>Employees</h1>
+
+        <div className="Pokedex-cards row">
           {this.props.worker.map((p) => (
             <Pokecard
               id={p.id}

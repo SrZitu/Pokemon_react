@@ -5,7 +5,7 @@ export default class Pokecard extends Component {
   render() {
     let imgsrc = `${Poke}${this.props.id}.jpg`;
     return (
-      <div className="col-lg-4">
+      <div className="col-lg-3">
         <div className="Pokecard">
           <h1 className="Pokecard-title">{this.props.name}</h1>
           <div className="Pokecard-img">

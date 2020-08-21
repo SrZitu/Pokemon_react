@@ -9,6 +9,8 @@ export default class Pokegame extends Component {
       { id: 13, name: "Pubbi", type: "Debugger", base_experience: 18 },
       { id: 22, name: "Sayra", type: "Film Maker", base_experience: 22 },
       { id: 94, name: "Sara", type: "Web Developer", base_experience: 25 },
+      { id: 21, name: "Safa", type: "Painter", base_experience: 21 },
+      { id: 91, name: "Sadat", type: "Web Developer", base_experience: 25 },
     ],
   };
   render() {
